@@ -1,0 +1,60 @@
+
+/* login */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {margin: 70px 0 20px 0;}
+.header img {
+    width: 180px;
+}
+
+.form input {
+    display: block;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    background-color: #fff;
+}
+.form input:focus { outline: none; }
+.form input + input {
+    border-top: 0;
+}
+.form input::placeholder {
+    color: #C1C1C1;
+}
+.form input[type="radio"] {
+width: initial;
+}
+button {
+    position: relative;;
+    border: 0;
+    width:270px;
+    height: 40px;
+    margin: 20px 0 0 0;
+}
+button i {
+    padding: 0 5px;
+}
+button.qr {
+    margin: 0;
+    cursor: pointer;
+}
+button:disabled {
+    background-color: #fbfcfd;
+    color: #999;
+    border: 2px solid #999;
+    cursor: no-drop;
+}
+button.qr:hover {
+    opacity: 0.8;
+}
+
+.auto { 
+    width: 280px;
+    padding: 20px 0 0 0;
+}
